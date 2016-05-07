@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>European Adventure</title>
+		<meta name="description" content="Demo of the tutorial on how to re-create a similar effect of the takeitapp.co website." />
+		<meta name="keywords" content="responsive, grid, polaroid, animation, intro, web design, tutorial, responsive images, srcset" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href='https://fonts.googleapis.com/css?family=Caveat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/square-loader.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script>
+			document.documentElement.className = 'js';
+		</script>
+	</head>
+	<body>
+		<div class="view">
+			<section class="page page--mover">
+				<div class="la-square-loader"><div></div></div>
+			</section>
+			<div class="title-wrap">
+				<h1 class="title title--main">Europe 2015</h1>
+				<p class="title title--sub">Here are some pictures, take a look!</p>
+			</div>
+			<section class="page page--static">
+				<div class="page__title">
+					<h2 class="page__title-main">Europe 2015</h2>
+					<p class="page__title-sub">You can scroll down, or jump to specific parts of my trip by clicking on the pictures</p>
+				</div>
+				<ul class="grid">
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/switzerland.jpg" alt="Switzerland" />
+							<h3 class="grid__item-title">Switzerland</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/roadtrip.jpg" alt="Roadtrip from Switzerland to Turkey" />
+							<h3 class="grid__item-title">Roadtrip from Switzerland to Turkey</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/turkey.jpg" alt="Backpacking in Turkey" />
+							<h3 class="grid__item-title">Backpacking in Turkey</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/summer-in-ukraine.jpg" alt="Summer in Ukraine" />
+							<h3 class="grid__item-title">Summer in Ukraine</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/eastern-europe.jpg" alt="Eastern Europe" />
+							<h3 class="grid__item-title">Eastern Europe</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/raft-building.jpg" alt="Building a Raft" />
+							<h3 class="grid__item-title">Building a Raft</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/rational-park.jpg" alt="Rational Park in Croatia" />
+							<h3 class="grid__item-title">Rational Park in Croatia</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/climbing-croatia.jpg" alt="Climbing in Croatia" />
+							<h3 class="grid__item-title">Climbing in Croatia</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/cycling-trip.jpg" alt="Cycling Trip" />
+							<h3 class="grid__item-title">Cycling Trip</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/casa-de-cultura.jpg" alt="Casa de Cultura Permanenta" />
+							<h3 class="grid__item-title">Casa de Cultura Permanenta</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/skiing-ukraine.jpg" alt="Skiing in Ukraine" />
+							<h3 class="grid__item-title">Skiing in Ukraine</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/baltics.jpg" alt="Baltics" />
+							<h3 class="grid__item-title">Baltics</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/dogsledding-norway.jpg" alt="Dogsledding in Norway" />
+							<h3 class="grid__item-title">Dogsledding in Norway</h3>
+						</a>
+					</li>
+					<li class="grid__item">
+						<a class="grid__link" href="#">
+							<img class="grid__img" src="img/photos/hitchhiking-scandinavia.jpg" alt="Hitchhiking in Scandinavia" />
+							<h3 class="grid__item-title">Hitchhiking in Scandinavia</h3>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<div class="device">
+				<div class="device__screen"></div>
+			</div>
+			<button id="showgrid" class="button button--view" aria-label="Show me more">
+				<svg width="100%" height="100%" viewBox="0 0 310 177" preserveAspectRatio="xMidYMid meet">
+					<path fill="#FFFFFF" d="M159.875,174.481L306.945,27.41c2.93-2.929,2.93-7.678,0-10.606L292.803,2.661c-1.406-1.407-3.314-2.197-5.303-2.197c-1.989,0-3.896,0.79-5.303,2.197L154.572,130.287L26.946,2.661c-1.406-1.407-3.314-2.197-5.303-2.197c-1.989,0-3.897,0.79-5.303,2.197L2.197,16.804C0.733,18.269,0,20.188,0,22.107s0.732,3.839,2.197,5.303l147.071,147.071C152.197,177.411,156.945,177.411,159.875,174.481L159.875,174.481z" />
+				</svg>
+			</button>
+			<!-- Related demos -->
+			<section class="content content--related">
+				<p>If you would like to see my full and updated itinerary:</p>
+				<a class="media-item" href="https://whereis-caiokf.herokuapp.com/">
+					<img class="media-item__img" src="img/related/where-is-caiokf.png" width="300">
+					<h3 class="media-item__title">Where is CaioKF?</h3>
+				</a>
+			</section>
+		</div><!-- /view -->
+		<script src="js/classie.js"></script>
+		<script src="js/dynamics.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
