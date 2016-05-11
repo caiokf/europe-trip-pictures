@@ -1,0 +1,24 @@
+{
+  "name": "europe-trip",
+  "description": "Overview of my Europe trip in 2015/2016",
+  "main": "index.js",
+  "authors": [
+    "Caio Kinzel Filho <caiokf@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/caiokf/europe-trip-pictures",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dynamics.js": "^1.0.0",
+    "classie": "^1.0.1",
+    "imagesloaded": "^4.1.0",
+    "jquery": "^2.2.3"
+  }
+}
